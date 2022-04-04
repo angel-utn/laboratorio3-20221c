@@ -126,8 +126,6 @@ INSERT [dbo].[Libros] ([ID], [IDEditorial], [IDIdioma], [Titulo], [Año], [Preci
 SET IDENTITY_INSERT [dbo].[Libros] OFF
 
 -- PAISES
-SET IDENTITY_INSERT [dbo].[Paises] ON 
-
 INSERT [dbo].[Paises] ([ID], [Nombre]) VALUES (1, N'Alemania')
 INSERT [dbo].[Paises] ([ID], [Nombre]) VALUES (2, N'Argentina')
 INSERT [dbo].[Paises] ([ID], [Nombre]) VALUES (3, N'Austria')
@@ -139,7 +137,6 @@ INSERT [dbo].[Paises] ([ID], [Nombre]) VALUES (8, N'India')
 INSERT [dbo].[Paises] ([ID], [Nombre]) VALUES (9, N'Inglaterra')
 INSERT [dbo].[Paises] ([ID], [Nombre]) VALUES (10, N'Italia')
 INSERT [dbo].[Paises] ([ID], [Nombre]) VALUES (11, N'Suecia')
-SET IDENTITY_INSERT [dbo].[Paises] OFF
 
 -- AUTORES
 SET IDENTITY_INSERT [dbo].[Autores] ON 
